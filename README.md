@@ -139,8 +139,7 @@ Given the datasets, I am investigating <strong>how the complexity of recipes and
   src="data_and_analysis\assets\cleaned_df_show.html"
   width="800"
   height="600"
-  frameborder="0"
-  classes="table table-striped">
+  frameborder="0">
 </iframe>
 
 
