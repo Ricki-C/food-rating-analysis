@@ -121,12 +121,12 @@ Given the datasets, I am investigating <strong>how the complexity of recipes and
   <li>Add <code>avg_rating</code> column, which respresents the average rating for each unique recipe.
     <ul>
       <li>
-        The average_rating variable represents the mean rating received by each recipe across all user interactions, providing a recipe-level measure of overall user evaluation.
+        The <code>average_rating</code> variable represents the mean rating received by each recipe across all user interactions, providing a recipe-level measure of overall user evaluation.
       </li>
     </ul>
   </li>
 
-  <li>Convert submitted and date to datetime
+  <li>Convert <code>submitted</code> and <code>date</code> to datetime
     <ul>
       <li>
         I convert those two columns into datatime, so I can use them to analysis the trends.
@@ -134,10 +134,10 @@ Given the datasets, I am investigating <strong>how the complexity of recipes and
     </ul>
   </li>
 
-  <li>Drop the duplicated recipe rows
+  <li>Drop duplicated recipe rows based on <code>recipe_id</code> to ensure that each row represents a unique recipe
     <ul>
       <li>
-        I only leave one row for each recipe, making clearer dataframe and improving efficiency.
+        The analysis focuses on recipe-level complexity and nutritional characteristics using aggregated ratings, retaining duplicate rows would be redundant
       </li>
     </ul>
   </li>
