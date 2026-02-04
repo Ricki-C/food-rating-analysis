@@ -132,9 +132,23 @@ Given the datasets, I am investigating <strong>how the complexity of recipes and
     </ul>
   </li>
 
+  <li>Drop the duplicated recipe rows
+    <ul>
+      <li>
+        I only leave one row for each recipe, making clearer dataframe and improving efficiency.
+      </li>
+    </ul>
+  </li>
+
 </ol>
 
 <h2>Data Cleaning Result Dataframe</h2>
+<p>
+The cleaned dataframe has 83781 rows and 14 columns. I show the 5 unique recipes with the several relevant columns below. 
+</p>
+
+<P>Scroll right to view more columns.</P>
+
 <iframe
   src="data_and_analysis\assets\cleaned_df_show_first5.html"
   width="100%"
@@ -144,4 +158,4 @@ Given the datasets, I am investigating <strong>how the complexity of recipes and
 
 
 
-<P>HIII!UPDATED</P>
+<P>yeah</P>
